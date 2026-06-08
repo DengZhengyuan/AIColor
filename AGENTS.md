@@ -1,0 +1,1 @@
+本项目应该使用 '~/uv_proj/aiday' 环境中的 Python。
