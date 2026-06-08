@@ -1,0 +1,32 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local OS/editor files
+.DS_Store
+*.code-workspace
+
+# Large or generated project artifacts
+data/raw/
+data/processed/
+results/
+logs/
+tmp/
+rawdata
+final_runs
+
+# Reference snapshots are useful locally but should not become Git history.
+references/
+
+# Model artifacts and checkpoints
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.npz
+
+# Notebook checkpoints
+.ipynb_checkpoints/

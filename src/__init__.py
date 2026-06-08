@@ -1,0 +1,1 @@
+"""AIColor core package."""

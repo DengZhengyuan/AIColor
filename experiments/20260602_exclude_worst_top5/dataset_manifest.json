@@ -1,0 +1,26 @@
+{
+  "experiment_slug": "20260602_exclude_worst_top5",
+  "created_at": "2026-06-02T14:41:01",
+  "source_csv": "data/raw/rawdata-2026.01.21-NaN_to_0.csv",
+  "diagnostics_csv": "results/reports/worst_case_diagnostic/all_data_diagnostics.csv",
+  "excluded_bands": [
+    "top_1pct",
+    "top_2_5pct",
+    "top_5pct"
+  ],
+  "n_source_rows": 18872,
+  "n_excluded_rows": 944,
+  "n_cleaned_rows": 17928,
+  "expected_source_rows": 18872,
+  "expected_excluded_rows": 944,
+  "cleaned_csv": "data/processed/20260602_exclude_worst_top5/rawdata-2026.01.21-NaN_to_0.exclude_worst_top5.csv",
+  "excluded_rows_csv": "data/processed/20260602_exclude_worst_top5/excluded_rows_top5.csv",
+  "included_row_map_csv": "data/processed/20260602_exclude_worst_top5/included_row_map.csv",
+  "metadata_json": "data/processed/20260602_exclude_worst_top5/dataset_metadata.json",
+  "cleaned_columns_match_source": true,
+  "excluded_delta_e_min": 2.8071885,
+  "excluded_delta_e_max": 159.50298,
+  "excluded_row_idx_min": 0,
+  "excluded_row_idx_max": 18869,
+  "note": "Training CSV intentionally contains only the original source columns. Use included_row_map.csv to map cleaned rows back to original row_idx."
+}
